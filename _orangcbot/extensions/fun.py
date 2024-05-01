@@ -235,12 +235,11 @@ class Fun(commands.Cog):
         #     moral_edited = copy.copy(_morals).append("Paragon of Virtue")
         #     state = choice(moral_edited)
         elif member.id == 853158265466257448:
-            state = "Amazing and super cool"
+            state = "Beneath contempt"
         elif member.id == 961063229168164864:
             state = "Degenerate"
         else:
             state = choice(_morals)
-
         await ctx.send(f"**{member.display_name}**'s moral status is **{state}**")
 
     @nextcord.user_command(name="See moral")
@@ -253,7 +252,7 @@ class Fun(commands.Cog):
         #     moral_edited = copy.copy(_morals).append("Paragon of Virtue")
         #     state = choice(moral_edited)
         elif member.id == 853158265466257448:
-            state = "Amazing and super cool"
+            state = "Beneath contempt"
         elif member.id == 961063229168164864:
             state = "Degenerate"
         else:
